@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.4.3'
 
-
+gem 'rails_12factor', group: :production
 gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
@@ -12,11 +12,16 @@ gem 'redis'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
+gem 'bootstrap', '~> 4.1.0'
 gem 'font-awesome-sass', '~> 5.0.9'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+
+gem 'better_errors'
+gem 'binding_of_caller'
+gem 'jquery-rails'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
