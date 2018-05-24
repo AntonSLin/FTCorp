@@ -1,1 +1,38 @@
 // Specific CSS for your home-page
+.home-background {
+  min-height: 900px;
+  filter: grayscale(70%);
+  background-size: cover !important;
+  background-position: 30% 60% !important;
+  background: linear-gradient(to bottom left,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 100, 0.8)
+    ), url(fleet.jpg);
+}
+.about-background {
+  min-height: 900px;
+  filter: grayscale(30%);
+  background-size: cover !important;
+  background-position: 45% 10% !important;
+  background: linear-gradient(to bottom left,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 200, 0.8)
+    ), url(shen_ft.jpg);
+}.contact-background {
+  min-height: 900px;
+  filter: grayscale(30%);
+  background-size: cover !important;
+  background-position: 30% 20% !important;
+  background: linear-gradient(to bottom left,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 200, 0.8)
+    ), url(horse.jpg);
+}
+.main-text {
+  color: black;
+  padding: 50px;
+  text-align: center;
+}
+.main-text h1, h3, h4, h5 {
+  font-weight: bold;
+}
